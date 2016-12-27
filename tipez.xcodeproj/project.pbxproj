@@ -1,0 +1,526 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7112251B1E122F1D001586CA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7112251A1E122F1D001586CA /* AppDelegate.swift */; };
+		7112251D1E122F1D001586CA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7112251C1E122F1D001586CA /* ViewController.swift */; };
+		711225201E122F1D001586CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7112251E1E122F1D001586CA /* Main.storyboard */; };
+		711225221E122F1D001586CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 711225211E122F1D001586CA /* Assets.xcassets */; };
+		711225251E122F1D001586CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 711225231E122F1D001586CA /* LaunchScreen.storyboard */; };
+		711225301E122F1D001586CA /* tipezTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7112252F1E122F1D001586CA /* tipezTests.swift */; };
+		7112253B1E122F1D001586CA /* tipezUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7112253A1E122F1D001586CA /* tipezUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7112252C1E122F1D001586CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7112250F1E122F1C001586CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 711225161E122F1C001586CA;
+			remoteInfo = tipez;
+		};
+		711225371E122F1D001586CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7112250F1E122F1C001586CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 711225161E122F1C001586CA;
+			remoteInfo = tipez;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		711225171E122F1D001586CA /* tipez.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tipez.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7112251A1E122F1D001586CA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7112251C1E122F1D001586CA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7112251F1E122F1D001586CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		711225211E122F1D001586CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		711225241E122F1D001586CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		711225261E122F1D001586CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7112252B1E122F1D001586CA /* tipezTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tipezTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7112252F1E122F1D001586CA /* tipezTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tipezTests.swift; sourceTree = "<group>"; };
+		711225311E122F1D001586CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		711225361E122F1D001586CA /* tipezUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tipezUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7112253A1E122F1D001586CA /* tipezUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tipezUITests.swift; sourceTree = "<group>"; };
+		7112253C1E122F1D001586CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		711225141E122F1C001586CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		711225281E122F1D001586CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		711225331E122F1D001586CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7112250E1E122F1C001586CA = {
+			isa = PBXGroup;
+			children = (
+				711225191E122F1D001586CA /* tipez */,
+				7112252E1E122F1D001586CA /* tipezTests */,
+				711225391E122F1D001586CA /* tipezUITests */,
+				711225181E122F1D001586CA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		711225181E122F1D001586CA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				711225171E122F1D001586CA /* tipez.app */,
+				7112252B1E122F1D001586CA /* tipezTests.xctest */,
+				711225361E122F1D001586CA /* tipezUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		711225191E122F1D001586CA /* tipez */ = {
+			isa = PBXGroup;
+			children = (
+				7112251A1E122F1D001586CA /* AppDelegate.swift */,
+				7112251C1E122F1D001586CA /* ViewController.swift */,
+				7112251E1E122F1D001586CA /* Main.storyboard */,
+				711225211E122F1D001586CA /* Assets.xcassets */,
+				711225231E122F1D001586CA /* LaunchScreen.storyboard */,
+				711225261E122F1D001586CA /* Info.plist */,
+			);
+			path = tipez;
+			sourceTree = "<group>";
+		};
+		7112252E1E122F1D001586CA /* tipezTests */ = {
+			isa = PBXGroup;
+			children = (
+				7112252F1E122F1D001586CA /* tipezTests.swift */,
+				711225311E122F1D001586CA /* Info.plist */,
+			);
+			path = tipezTests;
+			sourceTree = "<group>";
+		};
+		711225391E122F1D001586CA /* tipezUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7112253A1E122F1D001586CA /* tipezUITests.swift */,
+				7112253C1E122F1D001586CA /* Info.plist */,
+			);
+			path = tipezUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		711225161E122F1C001586CA /* tipez */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7112253F1E122F1D001586CA /* Build configuration list for PBXNativeTarget "tipez" */;
+			buildPhases = (
+				711225131E122F1C001586CA /* Sources */,
+				711225141E122F1C001586CA /* Frameworks */,
+				711225151E122F1C001586CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = tipez;
+			productName = tipez;
+			productReference = 711225171E122F1D001586CA /* tipez.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7112252A1E122F1D001586CA /* tipezTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 711225421E122F1D001586CA /* Build configuration list for PBXNativeTarget "tipezTests" */;
+			buildPhases = (
+				711225271E122F1D001586CA /* Sources */,
+				711225281E122F1D001586CA /* Frameworks */,
+				711225291E122F1D001586CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7112252D1E122F1D001586CA /* PBXTargetDependency */,
+			);
+			name = tipezTests;
+			productName = tipezTests;
+			productReference = 7112252B1E122F1D001586CA /* tipezTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		711225351E122F1D001586CA /* tipezUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 711225451E122F1D001586CA /* Build configuration list for PBXNativeTarget "tipezUITests" */;
+			buildPhases = (
+				711225321E122F1D001586CA /* Sources */,
+				711225331E122F1D001586CA /* Frameworks */,
+				711225341E122F1D001586CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				711225381E122F1D001586CA /* PBXTargetDependency */,
+			);
+			name = tipezUITests;
+			productName = tipezUITests;
+			productReference = 711225361E122F1D001586CA /* tipezUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7112250F1E122F1C001586CA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Brian Sai Kit Ho";
+				TargetAttributes = {
+					711225161E122F1C001586CA = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					7112252A1E122F1D001586CA = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 711225161E122F1C001586CA;
+					};
+					711225351E122F1D001586CA = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 711225161E122F1C001586CA;
+					};
+				};
+			};
+			buildConfigurationList = 711225121E122F1C001586CA /* Build configuration list for PBXProject "tipez" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7112250E1E122F1C001586CA;
+			productRefGroup = 711225181E122F1D001586CA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				711225161E122F1C001586CA /* tipez */,
+				7112252A1E122F1D001586CA /* tipezTests */,
+				711225351E122F1D001586CA /* tipezUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		711225151E122F1C001586CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				711225251E122F1D001586CA /* LaunchScreen.storyboard in Resources */,
+				711225221E122F1D001586CA /* Assets.xcassets in Resources */,
+				711225201E122F1D001586CA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		711225291E122F1D001586CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		711225341E122F1D001586CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		711225131E122F1C001586CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7112251D1E122F1D001586CA /* ViewController.swift in Sources */,
+				7112251B1E122F1D001586CA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		711225271E122F1D001586CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				711225301E122F1D001586CA /* tipezTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		711225321E122F1D001586CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7112253B1E122F1D001586CA /* tipezUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7112252D1E122F1D001586CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 711225161E122F1C001586CA /* tipez */;
+			targetProxy = 7112252C1E122F1D001586CA /* PBXContainerItemProxy */;
+		};
+		711225381E122F1D001586CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 711225161E122F1C001586CA /* tipez */;
+			targetProxy = 711225371E122F1D001586CA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7112251E1E122F1D001586CA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7112251F1E122F1D001586CA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		711225231E122F1D001586CA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				711225241E122F1D001586CA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7112253D1E122F1D001586CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7112253E1E122F1D001586CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		711225401E122F1D001586CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = tipez/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tipez.tipez;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		711225411E122F1D001586CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = tipez/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tipez.tipez;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		711225431E122F1D001586CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = tipezTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tipez.tipezTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tipez.app/tipez";
+			};
+			name = Debug;
+		};
+		711225441E122F1D001586CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = tipezTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tipez.tipezTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tipez.app/tipez";
+			};
+			name = Release;
+		};
+		711225461E122F1D001586CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = tipezUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tipez.tipezUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = tipez;
+			};
+			name = Debug;
+		};
+		711225471E122F1D001586CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = tipezUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tipez.tipezUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = tipez;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		711225121E122F1C001586CA /* Build configuration list for PBXProject "tipez" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7112253D1E122F1D001586CA /* Debug */,
+				7112253E1E122F1D001586CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7112253F1E122F1D001586CA /* Build configuration list for PBXNativeTarget "tipez" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				711225401E122F1D001586CA /* Debug */,
+				711225411E122F1D001586CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		711225421E122F1D001586CA /* Build configuration list for PBXNativeTarget "tipezTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				711225431E122F1D001586CA /* Debug */,
+				711225441E122F1D001586CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		711225451E122F1D001586CA /* Build configuration list for PBXNativeTarget "tipezUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				711225461E122F1D001586CA /* Debug */,
+				711225471E122F1D001586CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7112250F1E122F1C001586CA /* Project object */;
+}
